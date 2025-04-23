@@ -124,34 +124,42 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225125](https://github.com/user-attachments/assets/ba8713e6-ecf4-4cac-acdf-c0f53f9da941)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225136](https://github.com/user-attachments/assets/b1bf6818-1146-475d-9d24-1962855cae06)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225136](https://github.com/user-attachments/assets/2dd63f67-ce27-4ea6-99d8-8a866dec5588)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![Screenshot 2025-04-23 225145](https://github.com/user-attachments/assets/a075bc9c-90e0-40fd-abdd-4f66ccbf89e0)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![Screenshot 2025-04-23 225155](https://github.com/user-attachments/assets/7ced75d4-f6a1-4bcb-bf75-5e906ced7226)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![Screenshot 2025-04-23 225202](https://github.com/user-attachments/assets/bcfe555a-0553-41e2-aeec-bb691145b554)
 
 
 
