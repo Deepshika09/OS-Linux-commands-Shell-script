@@ -87,20 +87,23 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![Screenshot 2025-04-23 225100](https://github.com/user-attachments/assets/263af34d-766a-45a9-83dc-7fb6c8c61e26)
+![Screenshot 2025-04-23 225136](https://github.com/user-attachments/assets/a594c160-0b4a-465d-a970-9f806421af2c)
+
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![Screenshot 2025-04-23 225115](https://github.com/user-attachments/assets/e3c97bad-c469-4b41-bd44-c4edcf58b87d)
+![Screenshot 2025-04-23 225145](https://github.com/user-attachments/assets/f1fc448e-49f4-464d-89f1-16e44fe974cb)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![Screenshot 2025-04-23 225125](https://github.com/user-attachments/assets/dbe5cb12-da77-4fa9-916e-0e611a0ce887)
+![Screenshot 2025-04-23 225155](https://github.com/user-attachments/assets/262aa04f-6938-431d-9418-c57d26ffac3b)
+
 
 
 cat < newfile 
