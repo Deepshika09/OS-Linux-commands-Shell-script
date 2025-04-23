@@ -199,67 +199,69 @@ egrep -w 'Hello|hello' newfile
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225225](https://github.com/user-attachments/assets/e5aec0a5-b736-43e0-9ac3-421cdf703cba)
+![Screenshot 2025-04-23 225233](https://github.com/user-attachments/assets/d71f1406-8425-4fd1-b062-1194d15f1def)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225233](https://github.com/user-attachments/assets/d71f1406-8425-4fd1-b062-1194d15f1def)
+![Screenshot 2025-04-23 225244](https://github.com/user-attachments/assets/0730b24a-ab15-49f9-9004-cbc97ba60104)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225244](https://github.com/user-attachments/assets/0730b24a-ab15-49f9-9004-cbc97ba60104)
+![image-19](https://github.com/user-attachments/assets/a0aab168-ccb2-4bf4-ba83-c7167cda37f9)
+
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225244](https://github.com/user-attachments/assets/3fd47add-36e0-4ce2-b5c3-8fd3614aef9c)
+![image-20](https://github.com/user-attachments/assets/18c8bd69-8e00-4bfe-bca5-6ada7777d03d)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225258](https://github.com/user-attachments/assets/36dfd5b0-6297-4686-adc4-ef73b02a242e)
+![image-21](https://github.com/user-attachments/assets/c877dadd-e1bc-4ee3-a917-98002b6fb5f3)
+
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225258](https://github.com/user-attachments/assets/45412066-31c6-4a85-8c78-4200c5603c25)
+![image-22](https://github.com/user-attachments/assets/886291f5-5be0-4963-a136-292c02272a9f)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225311](https://github.com/user-attachments/assets/c246a917-2eca-4ab0-a939-b3e58e324bad)
+![image-23](https://github.com/user-attachments/assets/88cda344-7d98-439f-9dab-48088022b8c7)
 
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225318](https://github.com/user-attachments/assets/18c236eb-1bad-4c08-ae24-f2aae6fb3795)
+![image-24](https://github.com/user-attachments/assets/e7dd7115-619b-459e-81b3-2c919ff5ba3b)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225318](https://github.com/user-attachments/assets/ef542c85-44e7-4ccc-9797-168db5a4c813)
+![image-25](https://github.com/user-attachments/assets/24f32723-e77d-43c2-82e2-17281f756b45)
 
 
 egrep l{2} newfile
 ## OUTPUT
-![Screenshot 2025-04-23 225333](https://github.com/user-attachments/assets/c255f2af-dcd8-491a-88b0-385159c2de0f)
+![image-26](https://github.com/user-attachments/assets/8af46287-7706-4f8d-b257-eb818978d424)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![Screenshot 2025-04-23 225510](https://github.com/user-attachments/assets/decdfed0-b807-4adf-b19d-4cfa3f2e459b)
 
+![image-27](https://github.com/user-attachments/assets/cacf3451-7f1c-4abf-80e9-06f484c7a338)
 
 cat > file23
 ```
