@@ -190,11 +190,12 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
-egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 ![Screenshot 2025-04-23 225217](https://github.com/user-attachments/assets/7f9dd7a5-1058-4652-b492-556f0ad9ac3b)
 
-
+egrep -w 'Hello|hello' newfile
+## OUTPUT
+![Screenshot 2025-04-23 225225](https://github.com/user-attachments/assets/e5aec0a5-b736-43e0-9ac3-421cdf703cba)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
