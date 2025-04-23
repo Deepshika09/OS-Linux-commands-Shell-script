@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![Screenshot 2025-04-23 235405](https://github.com/user-attachments/assets/be09b425-b2cd-42b5-a368-247a9c432d68)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -58,7 +58,7 @@ cmp file1 file2
  
 comm file1 file2
  ## OUTPUT
-![Screenshot 2025-04-23 225053](https://github.com/user-attachments/assets/d98e25a3-eaaa-4767-b54b-949be5479086)
+![Screenshot 2025-04-23 235405](https://github.com/user-attachments/assets/d7de986d-304e-4e7e-bd31-b3a6bbf21314)
 
  
 diff file1 file2
