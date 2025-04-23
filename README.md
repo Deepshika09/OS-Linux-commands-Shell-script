@@ -130,14 +130,16 @@ grep Hello newfile
 
 grep hello newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225136](https://github.com/user-attachments/assets/b1bf6818-1146-475d-9d24-1962855cae06)
+![Screenshot 2025-04-24 000257](https://github.com/user-attachments/assets/52f3d480-8952-4cd0-ae48-3bdcde2543e2)
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![Screenshot 2025-04-23 225136](https://github.com/user-attachments/assets/2dd63f67-ce27-4ea6-99d8-8a866dec5588)
+![Screenshot 2025-04-24 000257](https://github.com/user-attachments/assets/d0536a39-086b-4130-9d07-8ff6958c380f)
+
 
 
 
