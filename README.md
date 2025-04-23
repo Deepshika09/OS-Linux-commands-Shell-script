@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![Screenshot 2025-04-23 225115](https://github.com/user-attachments/assets/f219da3f-761f-4801-8e67-2a7a6ee7e5a3)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -87,7 +87,7 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![Screenshot 2025-04-23 225136](https://github.com/user-attachments/assets/a594c160-0b4a-465d-a970-9f806421af2c)
+![Screenshot 2025-04-23 225108](https://github.com/user-attachments/assets/a1cc76c2-b63a-4a77-85b9-4885384249e1)
 
 
 
@@ -95,14 +95,17 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![Screenshot 2025-04-23 225145](https://github.com/user-attachments/assets/f1fc448e-49f4-464d-89f1-16e44fe974cb)
+![Screenshot 2025-04-23 225115](https://github.com/user-attachments/assets/ebcbf7c9-e8da-4896-b4e2-60e1755bd7f1)
+
+
 
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![Screenshot 2025-04-23 225155](https://github.com/user-attachments/assets/262aa04f-6938-431d-9418-c57d26ffac3b)
+![Screenshot 2025-04-23 225125](https://github.com/user-attachments/assets/8c7c5e27-a2e7-4b75-b4e2-d8d20e9455e1)
+
 
 
 
