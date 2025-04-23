@@ -1,4 +1,4 @@
-![Screenshot 2025-04-23 235405](https://github.com/user-attachments/assets/be09b425-b2cd-42b5-a368-247a9c432d68)# OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -95,7 +95,8 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![Screenshot 2025-04-23 235639](https://github.com/user-attachments/assets/d324a623-bcc0-49e4-8805-79dacaff3a1b)
+![Screenshot 2025-04-23 235639](https://github.com/user-attachments/assets/d4a36b5e-04ae-46b1-b890-a095b37669df)
+
 
 
 
