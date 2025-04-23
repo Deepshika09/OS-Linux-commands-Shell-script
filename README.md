@@ -95,7 +95,8 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![Screenshot 2025-04-23 225115](https://github.com/user-attachments/assets/ebcbf7c9-e8da-4896-b4e2-60e1755bd7f1)
+![Screenshot 2025-04-23 235639](https://github.com/user-attachments/assets/d324a623-bcc0-49e4-8805-79dacaff3a1b)
+
 
 
 
