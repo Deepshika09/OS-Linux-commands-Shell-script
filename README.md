@@ -138,7 +138,7 @@ grep hello newfile
 
 grep -v hello newfile 
 ## OUTPUT
-![Screenshot 2025-04-24 000257](https://github.com/user-attachments/assets/b7e31ffe-0dfb-4411-a39a-bf7abd2a20ec)
+![Screenshot 2025-04-24 000734](https://github.com/user-attachments/assets/7a1b5bbd-0b41-4139-84e1-f697b1ad9ee6)
 
 
 
