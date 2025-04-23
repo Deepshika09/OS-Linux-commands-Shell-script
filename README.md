@@ -104,7 +104,8 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![Screenshot 2025-04-23 225125](https://github.com/user-attachments/assets/8c7c5e27-a2e7-4b75-b4e2-d8d20e9455e1)
+![Screenshot 2025-04-23 225115](https://github.com/user-attachments/assets/8d2bf3b5-faa1-4c66-9c6e-cd824179916b)
+
 
 
 
