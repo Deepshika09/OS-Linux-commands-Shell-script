@@ -167,6 +167,8 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+![Screenshot 2025-04-23 225209](https://github.com/user-attachments/assets/42ebf254-e5f4-4bc8-8035-abb6687a09c4)
+
 
 
 cat < newfile 
@@ -190,59 +192,72 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225217](https://github.com/user-attachments/assets/7f9dd7a5-1058-4652-b492-556f0ad9ac3b)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225225](https://github.com/user-attachments/assets/e5aec0a5-b736-43e0-9ac3-421cdf703cba)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225233](https://github.com/user-attachments/assets/d71f1406-8425-4fd1-b062-1194d15f1def)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225244](https://github.com/user-attachments/assets/0730b24a-ab15-49f9-9004-cbc97ba60104)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225244](https://github.com/user-attachments/assets/3fd47add-36e0-4ce2-b5c3-8fd3614aef9c)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225258](https://github.com/user-attachments/assets/36dfd5b0-6297-4686-adc4-ef73b02a242e)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225258](https://github.com/user-attachments/assets/45412066-31c6-4a85-8c78-4200c5603c25)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225311](https://github.com/user-attachments/assets/c246a917-2eca-4ab0-a939-b3e58e324bad)
+
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225318](https://github.com/user-attachments/assets/18c236eb-1bad-4c08-ae24-f2aae6fb3795)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![Screenshot 2025-04-23 225318](https://github.com/user-attachments/assets/ef542c85-44e7-4ccc-9797-168db5a4c813)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![Screenshot 2025-04-23 225333](https://github.com/user-attachments/assets/c255f2af-dcd8-491a-88b0-385159c2de0f)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![Screenshot 2025-04-23 225510](https://github.com/user-attachments/assets/decdfed0-b807-4adf-b19d-4cfa3f2e459b)
 
 
 cat > file23
