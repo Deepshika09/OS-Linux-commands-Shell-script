@@ -887,18 +887,6 @@ done
 $ chmod 755 forin2.sh
  ![image-75](https://github.com/user-attachments/assets/dc095dda-ed81-43a2-9536-3e7499948fb2)
 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
  
 cat forin3.sh 
 ```bash
@@ -910,7 +898,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ![image-76](https://github.com/user-attachments/assets/f067bf4d-08fb-496f-b625-3046c8179698)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -923,6 +912,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image-77](https://github.com/user-attachments/assets/c515e9cd-729b-40df-acbb-4d6ec5f0c572)
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -958,6 +950,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image-78](https://github.com/user-attachments/assets/3c2e3d7a-1150-476a-a588-ff7747895e9a)
 
 cat forctype1.sh 
 ```bash
@@ -971,6 +964,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image-79](https://github.com/user-attachments/assets/3c4e4a72-61ad-432c-90ea-b1934942f86b)
 
 cat fornested1.sh 
 ```bash
@@ -989,6 +983,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image-80](https://github.com/user-attachments/assets/bec3eb96-61f5-4169-a5a5-6c51b363e863)
 
  
 cat forbreak.sh 
