@@ -424,19 +424,21 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![image-48](https://github.com/user-attachments/assets/9c66f797-b2c5-42ce-9f0a-10bd0893963d)
 
- ![image-47](https://github.com/user-attachments/assets/55cefb1a-2599-4557-8530-80253c398217)
+
 
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![image-48](https://github.com/user-attachments/assets/79f24f49-2fc0-442b-87ac-e6d576228fb3)
+![image-49](https://github.com/user-attachments/assets/859d5835-6e95-47f6-8344-0cbd04f821f6)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![image-49](https://github.com/user-attachments/assets/f7d19d67-87f1-477b-9880-a0e104ac7656)
+
+![image-50](https://github.com/user-attachments/assets/bded481b-dc61-42be-900d-90f3a2c3001f)
 
 
 mkdir backupdir
@@ -445,24 +447,27 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image-51](https://github.com/user-attachments/assets/d980d6d9-4232-4d14-8e43-394a7a60518e)
 
-![image-50](https://github.com/user-attachments/assets/48314248-5a37-489b-b47f-4ad686a8d9d8)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![image-51](https://github.com/user-attachments/assets/8aab59ea-e0a0-4372-a3c4-05f608b0dc05)
+![image-53](https://github.com/user-attachments/assets/0b2e626a-8cf4-4e51-be27-1cc7a7584094)
+
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![image-53](https://github.com/user-attachments/assets/1e52011a-a8d6-4650-bb2b-f40472718645)
+![image-55](https://github.com/user-attachments/assets/fe31331f-d862-4a27-b9ea-4c86b7b7ccc7)
 
 gunzip backup.tar.gz
 ## OUTPUT
-![image-55](https://github.com/user-attachments/assets/4fecfbef-30dc-429a-bf33-f9a8790bc3de)
 
- 
+ ![image-56](https://github.com/user-attachments/assets/9255958b-1032-4991-bdd8-530d1fbcc8bf)
+
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
