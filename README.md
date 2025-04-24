@@ -539,12 +539,14 @@ ls file1
  
 echo $?
 ## OUTPUT 
+![Screenshot 2025-04-23 230406](https://github.com/user-attachments/assets/63fdbca2-5a76-4888-bbef-d6d135e25452)
 
 
 abcd
  
 echo $?
  ## OUTPUT
+![Screenshot 2025-04-23 230414](https://github.com/user-attachments/assets/2e45c5b6-ec65-48ca-a409-32047617be3c)
 
 
  
@@ -576,7 +578,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+#OUTPUT
+![Screenshot 2025-04-23 230427](https://github.com/user-attachments/assets/53b4cd42-7035-4dcc-8266-4c7b53bd7374)
 
 
 
@@ -584,6 +587,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![Screenshot 2025-04-23 230436](https://github.com/user-attachments/assets/ebcd1e21-1b35-436d-b273-5fcc948dc89e)
 
 
 # check file ownership
@@ -611,6 +615,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![Screenshot 2025-04-23 230446](https://github.com/user-attachments/assets/b3deb4a0-0d34-497c-bc12-244766c435d4)
 
 # check if with file location
 cat>ifnested.sh 
@@ -657,6 +662,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![Screenshot 2025-04-23 230455](https://github.com/user-attachments/assets/697b9eb9-d7e1-4d3d-8c7a-ba0fa4440a0f)
 
 
 
@@ -700,7 +706,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+#OUTPUT
+![Screenshot 2025-04-23 230503](https://github.com/user-attachments/assets/33f01a7d-b1be-49fb-97fd-e112f41df276)
 
 # check if a file
 cat > ifnested.sh 
