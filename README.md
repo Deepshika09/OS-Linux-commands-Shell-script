@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![Screenshot 2025-04-23 230525](https://github.com/user-attachments/assets/fa8320c2-cfbc-42f3-ae2d-fe451224353a)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -706,8 +706,10 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-#OUTPUT
+## OUTPUT
+
 ![Screenshot 2025-04-23 230503](https://github.com/user-attachments/assets/33f01a7d-b1be-49fb-97fd-e112f41df276)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -757,6 +759,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![Screenshot 2025-04-23 230511](https://github.com/user-attachments/assets/5ab86ff0-de32-47c3-a090-e33d543bf1fd)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -785,6 +788,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![Screenshot 2025-04-23 230518](https://github.com/user-attachments/assets/7ff0e39e-6b27-4719-a5f4-c522985a04ef)
 
 
 # testing compound comparisons
@@ -801,6 +805,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![Screenshot 2025-04-23 230525](https://github.com/user-attachments/assets/b7457ca7-b517-48c9-95f9-5f43f44828eb)
 
 # using the case command
 cat >casecheck.sh 
@@ -820,7 +825,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+##OUTPUT
+ ![image-71](https://github.com/user-attachments/assets/3634dd82-69ba-4f94-b4e7-8c9cd3981c67)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -835,7 +842,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ![image-72](https://github.com/user-attachments/assets/59508d99-0822-41a7-af60-560058ff7ded)
+
  
 cat untiltest.sh 
 ```bash
@@ -848,7 +856,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+ ![image-73](https://github.com/user-attachments/assets/602158d2-0318-4a4b-aaf8-52d3629bf372)
+
  
  
 cat forin1.sh 
@@ -862,7 +871,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ![image-74](https://github.com/user-attachments/assets/b06e0522-c2f9-4bbf-9bc9-05da62e06b3d)
+
  
 cat forin2.sh 
 ```bash
@@ -875,7 +885,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ ![image-75](https://github.com/user-attachments/assets/dc095dda-ed81-43a2-9536-3e7499948fb2)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
