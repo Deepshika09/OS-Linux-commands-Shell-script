@@ -1001,6 +1001,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image-81](https://github.com/user-attachments/assets/24e5b0f7-3846-4626-a15c-39a766db68e8)
 
 $ chmod 755 forbreak.sh
  
@@ -1026,7 +1027,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![image-82](https://github.com/user-attachments/assets/7acff970-9996-437d-aabf-8899b93a35c1)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1075,8 +1077,11 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
+ ![image-85](https://github.com/user-attachments/assets/63cdaf53-f93e-4d0a-a7c0-9e81d36409b9)
+
  ./funcex.sh 1 2
+## OUTPUT
+![image-86](https://github.com/user-attachments/assets/5a992354-872e-4085-b587-133639ba9b88)
 
  
 cat argshift.sh
@@ -1088,9 +1093,11 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+![image-87](https://github.com/user-attachments/assets/d32cf319-9c4b-4c34-8398-d34ee6f030ed)
+
  
  cat argshift1.sh
 ```bash
@@ -1106,8 +1113,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+![image-88](https://github.com/user-attachments/assets/669347e6-2016-4560-9e90-b7a8af7907fd)
+
  
 cat argshift.sh
 ```bash
@@ -1119,10 +1129,12 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
+
+## OUTPUT
  
- 
+ ![image-89](https://github.com/user-attachments/assets/96efdfbd-6227-40cf-af12-ba3d0b07b55b)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1152,7 +1164,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image-91](https://github.com/user-attachments/assets/b58e675e-8d1a-462c-90a3-97b09fe3403a)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1182,6 +1195,7 @@ fi
 
 
 ## OUTPUT 
+![image-92](https://github.com/user-attachments/assets/a8a125d2-bf43-4604-a503-bede0eda5125)
 
 
 # RESULT:
