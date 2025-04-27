@@ -1042,7 +1042,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-![44](https://github.com/user-attachments/assets/a9348663-1419-4730-9f11-a02f690e9260)
+![45](https://github.com/user-attachments/assets/7b7f385f-6600-4180-b333-7731a553f121)
 
 
  cat exread1.sh
@@ -1056,7 +1056,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-![44](https://github.com/user-attachments/assets/04aee4a2-e04c-48a2-b1c6-c9968365c04d)
+![45](https://github.com/user-attachments/assets/d70cb1d0-3f90-4315-a5b7-f4dd33dada81)
 
 
 $ ./exread1.sh 
